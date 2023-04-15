@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9CDF7;
+}
+
+.sofa{
+    position: relative;
+    mix-blend-mode: darken;
+}
+.sofa_rotating{
+    width: 449px;
+    position: absolute;
+    left: 0;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+#image_360{
+    position: absolute;
+    top: 0;
+    right: 2px;
+    cursor: pointer;
+}
+#close{
+    position: absolute;
+    top: 0;
+    right: 2px;
+    cursor: pointer;
+}
+.info span:first-child{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #271A45;
+    font-family: 'Lato';
+}
+.info h2{
+    font-size: 3.7em;
+    font-family: 'Crimson Pro';
+    margin: 0;
+}
+.info-price{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+.price{
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #271A45;
+    font-family: 'Lato';
+}
+button{
+    all: unset;
+    font-weight: 400;
+    font-family: 'Lato';
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border: 0.05em solid #271A45;
+    border-radius: 999px;
+    padding: 0.8em 1.6em;
+}
+.add{
+    margin-top: 2em;
+}
