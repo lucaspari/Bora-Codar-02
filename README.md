@@ -5,6 +5,7 @@ https://www.rocketseat.com.br/boracodar/desafios-anteriores/um-card-de-produto-d
 ## Technologies used
 * HTML
 * CSS
+* JS
 ## Project
 <p align="center">
   <img src="github/preview.jpg" width="100%">
